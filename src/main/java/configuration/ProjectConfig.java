@@ -13,19 +13,22 @@ public class ProjectConfig {
 	@Bean(name="car1") 
 	Car car1() { 
 		Car car = new Car();
-		car.setColor("Black");
+		car.setColor("red");
+		car.setName("Audi");
 		return car;
 	}
 	@Bean(name="car2")
 	Car car2() { 
 		Car car = new Car();
-		car.setColor("Red");
+		car.setColor("red");
+		car.setName("Mercedes");
 		return car;
 	}
 	@Bean(name="car3") 
 	Car car3() { 
 		Car car = new Car();
-		car.setColor("Yellow");
+		car.setColor("yellow");
+		car.setName("Porsche");
 		return car;
 	}
 }
